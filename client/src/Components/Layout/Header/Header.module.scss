@@ -1,0 +1,31 @@
+.header-wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  background-color: #ccc;
+}
+
+// Logo
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+}
+
+// List link
+.list {
+  margin-left: 30px;
+  .link {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    color: #767676;
+
+    &:hover {
+      text-decoration: underline;
+      color: #000;
+    }
+  }
+}
+
+// Popup ============
